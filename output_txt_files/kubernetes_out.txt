@@ -1,0 +1,9 @@
+<paste log output from Kubernetes-mediated prediction, here>
+gwtm@Gowthams-Air DevOps_Microservices % ./run_kubernetes.sh            
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "micro" already exists
+NAME                          READY   STATUS    RESTARTS   AGE
+micro-54f6dc8cd9-vg97f        1/1     Running   0          37m
+udacity-p4-6b98f44f9c-5z8p6   1/1     Running   0          40m
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
