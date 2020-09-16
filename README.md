@@ -1,1 +1,1 @@
-[![CircleCI](https://circleci.com/gh/Gwtm-00/microservice-ML-API-kubernetes/circleci-docs.svg?style=svgsvg&circle-token=4554d2ca5b4cb1fe3c6f6b69f41a5c9a11919126)](https://app.circleci.com/pipelines/github/Gwtm-00/microservice-ML-API-kubernetes)
+[![CircleCI](https://circleci.com/gh/Gwtm-00/microservice-ML-API-kubernetes/tree/master.svg?style=svg)](https://app.circleci.com/pipelines/github/Gwtm-00/microservice-ML-API-kubernetes)
