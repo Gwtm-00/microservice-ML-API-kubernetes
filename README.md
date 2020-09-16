@@ -7,7 +7,7 @@ A pre-trained, `sklearn` model that has been trained to predict housing prices i
 
 ### Environment Setup
 * Create a virtual environment 
-`python3 -m venv ~/.devops`
+`<python3 -m venv ~/.devops>`
 * Activate it
 `source ~/.devops/bin/activate`
 
