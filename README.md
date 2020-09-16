@@ -7,10 +7,29 @@ A pre-trained, `sklearn` model that has been trained to predict housing prices i
 
 ### Environment Setup
 * Create a virtual environment 
-`<python3 -m venv ~/.devops>`
+`python3 -m venv ~/.devops`
 * Activate it
 `source ~/.devops/bin/activate`
 
+### Kuberneted Environment setup
+* Install minkube
+* `minikube start`
 
+### Running Script
+* Start server : `python app.py`
+* Run in Docker: `./run_docker.sh`
+* Run in Kubernetes: `./run_kubernetes.sh`
+
+
+### Files
+
+* `app.py` ---> contains app logic and flask module
+* `requirements.txt` ---> contains list of third-party libraries and framework used
+* `run_docker.sh` ---> builds docker image 
+* `upload_docker.sh` ---> Uploads docker image to docker hub
+* `run_kubernetes.sh` ---> runs the container in kubernetes cluster
+* `Makefile` ---> Takes care of installing dependencies and linting
+* `make_prediction.sh` ---> forwards input to the running server
+* `.circleci` ---> contains config file for circel CI
 
 
